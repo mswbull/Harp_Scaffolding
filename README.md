@@ -6,6 +6,6 @@
 
 **Author:** Matthew Bull
 
-**Team:** www.lifeintech.com
+**Website:** www.lifeintech.com
 
 **Development Language(s):** Node.js, Harp.js
