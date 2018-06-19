@@ -1,8 +1,14 @@
 {
-	"name": "Name",
-	"version": "1.0.0",
-	"description": "A Harp App on Heroku",
-	"dependencies": {
-		"harp": "*"
-	}
+  "name": "Name",
+  "version": "1.0.0",
+  "description": "A Harp App on Heroku",
+  "dependencies": {
+    "harp": "*",
+    "snyk": "^1.83.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
